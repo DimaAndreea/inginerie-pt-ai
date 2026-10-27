@@ -29,7 +29,7 @@ Datasetul furnizează secțiunile cheie din prospectele oficiale necesare pentru
 | **Sursă oficială** | **U.S. Food and Drug Administration (FDA) – openFDA Drug Product Labeling** |
 | **Link API / Manifest** | [https://open.fda.gov/apis/drug/label/](https://open.fda.gov/apis/drug/label/) / `https://api.fda.gov/download.json` |
 | **Licență** | **Domeniu Public (CC0 / U.S. Government Work)**. Datele furnizate de openFDA sunt publice și pot fi descărcate, procesate și redistribuite liber, atât în scopuri comerciale cât și necomerciale. |
-| **Dimensiune după filtrare** | ~**3.000 de înregistrări unice** (medicamente orale de uz uman), ocupând aproximativ **50 MB în format Parquet**. |
+| **Dimensiune după filtrare** | Aproximativ **300 MB**, în format **Parquet (`.parquet`)** |
 
 ---
 
