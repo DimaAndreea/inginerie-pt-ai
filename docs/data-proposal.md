@@ -25,7 +25,7 @@ Datasetul furnizează secțiunile cheie din prospectele oficiale necesare pentru
 
 | Parametru | Detalii |
 | :--- | :--- |
-| **Sursă structură** | **tirandazdylan/drug-labels-snapshot – Hugging Face dataset** |
+| **Sursă structură** | **[tirandazdylan/drug-labels-snapshot](https://huggingface.co/datasets/tirandazdylan/drug-labels-snapshot) – Hugging Face dataset** |
 | **Sursă oficială** | **U.S. Food and Drug Administration (FDA) – openFDA Drug Product Labeling** |
 | **Link API / Manifest** | [https://open.fda.gov/apis/drug/label/](https://open.fda.gov/apis/drug/label/) / `https://api.fda.gov/download.json` |
 | **Licență** | **Domeniu Public (CC0 / U.S. Government Work)**. Datele furnizate de openFDA sunt publice și pot fi descărcate, procesate și redistribuite liber, atât în scopuri comerciale cât și necomerciale. |
@@ -83,29 +83,32 @@ Fiecare rând din datasetul procesat respectă următoarea structură:
 {
   "drug": "metformin",
   "query": "openfda.generic_name.exact:\"METFORMIN HYDROCHLORIDE\"+AND+openfda.product_type:\"HUMAN PRESCRIPTION DRUG\"+AND+openfda.route:\"ORAL\"",
-  "set_id": "a5e883e4-6993-4e78-9e5c-0cf38c4b1234",
-  "id": "da441b80-1a22-48fb-bc24-897b71891111",
-  "version": "14",
-  "effective_time": "20231015",
-  "fetched_on": "2024-03-01",
-  "openfda_last_updated": "2024-02-28",
-  "brand_name": "Glucophage, Metformin Hydrochloride",
+  "set_id": "14f3091c-f243-4364-b433-727c7d4ef8d5",
+  "id": "560798a8-34ca-25ac-e063-6294a90ad854",
+  "version": "19",
+  "effective_time": "20260707",
+  "fetched_on": "2026-10-27",
+  "openfda_last_updated": "2026-10-27",
+  "brand_name": "METFORMIN HYDROCHLORIDE EXTENDED RELEASE",
   "generic_name": "METFORMIN HYDROCHLORIDE",
-  "manufacturer_name": "Bristol-Myers Squibb Company",
+  "manufacturer_name": "PD-Rx Pharmaceuticals, Inc.",
   "product_type": "HUMAN PRESCRIPTION DRUG",
-  "route": "ORAL",
-  "rxcui": "860975, 860978",
-  "boxed_warning": "WARNING: LACTIC ACIDOSIS: Postmarketing cases of metformin-associated lactic acidosis have resulted in death...",
-  "indications_and_usage": "Metformin hydrochloride tablets are indicated as an adjunct to diet and exercise to improve glycemic control in adults with type 2 diabetes mellitus.",
-  "dosage_and_administration": "The recommended starting dose is 500 mg orally twice a day, given with meals. Dosage increases should be made in increments of 500 mg weekly.",
-  "contraindications": "Severe renal impairment (eGFR below 30 mL/min/1.73 m2). Known hypersensitivity to metformin. Acute or chronic metabolic acidosis.",
-  "warnings_and_cautions": "Lactic acidosis; Vitamin B12 deficiency; Hypoglycemia with concomitant use of insulin or insulin secretagogues.",
-  "drug_interactions": "Carbonic anhydrase inhibitors may increase risk of lactic acidosis. Cationic drugs eliminated by renal tubular secretion may increase metformin concentrations.",
-  "use_in_specific_populations": "Geriatric Use: Assess renal function more frequently.",
-  "pregnancy": "Metformin should be used during pregnancy only if clearly needed.",
-  "do_not_use": null,
-  "ask_doctor": null,
-  "stop_use": null
+  "rxcui": "860975",
+  "boxed_warning": "lactic acidosis; renal impairment; discontinue treatment; hemodialysis",
+  "indications_and_usage": "adjunct to diet and exercise; glycemic control; adults with type 2 diabetes mellitus",
+  "dosage_and_administration": "500 mg once daily with the evening meal; increase by 500 mg weekly; maximum 2000 mg once daily",
+  "contraindications": "eGFR below 30 mL/min/1.73 m²; hypersensitivity to metformin; acute or chronic metabolic acidosis",
+  "warnings_and_cautions": "lactic acidosis; vitamin B12 deficiency",
+  "warnings": "...",
+  "precautions": "...",
+  "drug_interactions": "...",
+  "use_in_specific_populations": "...",
+  "pregnancy": "...",
+  "do_not_use": "...",
+  "ask_doctor": "...",
+  "ask_doctor_or_pharmacist": "...",
+  "stop_use": "...",
+  "pregnancy_or_breast_feeding": "..."
 }
 ```
 </details>
@@ -116,29 +119,32 @@ Fiecare rând din datasetul procesat respectă următoarea structură:
 {
   "drug": "ibuprofen",
   "query": "openfda.generic_name.exact:\"IBUPROFEN\"+AND+openfda.product_type:\"HUMAN OTC DRUG\"+AND+openfda.route:\"ORAL\"",
-  "set_id": "c1f77d33-4011-4f11-b0e2-6638f364abcd",
-  "id": "e912f91a-7b3c-41da-a719-f9c316712222",
-  "version": "6",
-  "effective_time": "20230620",
-  "fetched_on": "2024-03-01",
-  "openfda_last_updated": "2024-02-28",
-  "brand_name": "Advil, Motrin IB",
+  "set_id": "a7789f7f-3356-463b-9fd7-2d7f7eba2799",
+  "id": "b0cdee36-49ad-4d25-97d9-3fb750682cfa",
+  "version": "9",
+  "effective_time": "20260908",
+  "fetched_on": "2026-10-27",
+  "openfda_last_updated": "2026-10-27",
+  "brand_name": "Ibuprofen",
   "generic_name": "IBUPROFEN",
-  "manufacturer_name": "Haleon US Holdings LLC",
+  "manufacturer_name": "The Kroger Co.",
   "product_type": "HUMAN OTC DRUG",
-  "route": "ORAL",
-  "rxcui": "152923, 197806",
+  "rxcui": "310964",
   "boxed_warning": null,
-  "indications_and_usage": "Temporarily relieves minor aches and pains due to: headache, muscular aches, toothache, arthritis; temporarily reduces fever.",
-  "dosage_and_administration": "Take 1 tablet every 4 to 6 hours while symptoms persist. If pain or fever does not respond, 2 tablets may be used.",
+  "indications_and_usage": "minor aches and pains; temporarily reduces fever",
+  "dosage_and_administration": "1 capsule every 4 to 6 hours; maximum 6 capsules in 24 hours",
   "contraindications": null,
-  "warnings_and_cautions": "Stomach bleeding warning: This product contains an NSAID, which may cause severe stomach bleeding.",
-  "drug_interactions": "Do not use if taking aspirin for heart attack or stroke without talking to your doctor. Do not take with other NSAIDs.",
+  "warnings_and_cautions": null,
+  "warnings": "allergic reaction; stomach bleeding; heart attack and stroke",
+  "precautions": null,
+  "drug_interactions": null,
   "use_in_specific_populations": null,
   "pregnancy": null,
-  "do_not_use": "If you have ever had an allergic reaction to any other pain reliever/fever reducer; right before or after heart surgery.",
-  "ask_doctor": "Ask a doctor before use if you have high blood pressure, heart disease, liver cirrhosis, kidney disease, or asthma.",
-  "stop_use": "Stop use and ask a doctor if you experience faintness, vomit blood, or have bloody stools."
+  "do_not_use": "allergic reaction to another pain reliever/fever reducer; right before or after heart surgery",
+  "ask_doctor": "stomach bleeding risk; heart disease; liver or kidney disease; asthma; stroke; diuretic use",
+  "ask_doctor_or_pharmacist": "under a doctor's care; aspirin use; other drugs",
+  "stop_use": "stomach bleeding; heart or stroke symptoms; pain lasting more than 10 days; fever lasting more than 3 days",
+  "pregnancy_or_breast_feeding": "ask a health professional; avoid use at 20 weeks or later unless directed by a doctor"
 }
   ```
 </details>
